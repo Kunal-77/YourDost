@@ -1,78 +1,99 @@
-# YourDOST SDE Intern Assignment - Frontend
+# 🧠 YourDOST Frontend Assignment
 
-## Project Title
-**User Directory Table**
-
-This React + TailwindCSS web app fetches and displays user data from the [ReqRes API](https://reqres.in/api/users).  
-It supports searching, sorting, filtering, and pagination — along with a responsive, professional UI.
+## 🚀 Overview
+This project is a **React + Vite + Tailwind CSS** web application built as part of the **YourDOST Frontend Assignment**.  
+It displays a list of users fetched from an API with full functionality — **search, filter, sort, and pagination**.
 
 ---
 
-## Features Implemented
+## 🎯 Objective
+Build a simple user directory that:
+- Fetches user data from an API  
+- Displays users in a clean, responsive UI  
+- Supports filtering, sorting, and pagination  
 
-Fetch user list from ReqRes API  
-Display users in responsive card format  
-Search by name or email  
-Filter by email domain  
-Sort by name or email (A → Z / Z → A)  
-Pagination (with previous & next page controls)  
-Loading spinner while fetching data  
-Error handling for invalid pages  
-Responsive design for all devices  
-Built with React (Vite) + TailwindCSS  
+---
+
+##  Live Demo
+🔗 [View Deployed App on Vercel] [text](https://frontend-sigma-sooty-12.vercel.app/)
+
+---
+
+##  Features
+ Fetches live user data from API (`https://randomuser.me/api`)  
+ Search users by name or email  
+ Filter users by email domain  
+ Sort users by name or email (A–Z / Z–A)  
+ Pagination with multiple pages  
+ Loading spinner during data fetch  
+ Error handling for failed network requests  
+ Fully responsive, mobile-friendly design  
 
 ---
 
 ##  Tech Stack
-
-- **Frontend:** React (Vite)
-- **Styling:** TailwindCSS
-- **API:** [ReqRes](https://reqres.in/)
+- **Frontend Framework:** React (Vite)
+- **Styling:** Tailwind CSS
+- **API:** RandomUser API
 - **Deployment:** Vercel
 
 ---
 
-## ⚙️ Setup Instructions
+##  Preview
+###  Desktop View
+A clean, modern, and responsive user directory interface.
 
-Follow these steps to run the project locally 👇  
+###  Mobile View
+Fully responsive layout with smooth interactions.
 
-### 1️ Clone this repository
+---
+
+##  Setup Instructions
+
+### 1️ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/yourdost-assignment.git
-2️ Navigate to the frontend folder
-bash
-Copy code
-cd yourdost-assignment/frontend
-3️ Install dependencies
+git clone (https://github.com/Kunal-77/YourDost)
+cd frontend
+2️ Install Dependencies
 bash
 Copy code
 npm install
-4️ Run the development server
+3️ Run Locally
 bash
 Copy code
 npm run dev
-Now open your browser and visit 
-http://localhost:5173
+Then open:
+ http://localhost:5173
 
- Testing the App
- Search
-Type any name or email in the search box — results update instantly.
+# API Used
+RandomUser API:
+https://randomuser.me/api/?page=1&results=10&nat=us
 
- Filter
-Enter a domain (e.g. reqres.in) to filter users by email.
+Used instead of reqres.in to avoid CORS and 401 authentication issues.
 
- Sort
-Use the dropdown to sort users by:
+. Bonus Features
+1. Modern Tailwind-based UI with hover animations
+2. Gradient background & soft shadows
+3. Animated loader while fetching users
+4. Graceful fallback for empty or failed responses
 
-First Name (A → Z / Z → A)
-
-Email (A → Z / Z → A)
-
- Pagination
-Navigate between pages using Prev / Next buttons.
-You can’t move beyond available pages — it’s safely handled.
-
- UI Preview
-(Add your app screenshot here after deployment)
-
- Deployment (Vercel)
+# Folder Structure
+arduino
+Copy code
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── UserDirectory.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+## Author
+ Kunal Narkhede
+Frontend Developer | Passionate about clean UI & modern web design 
+Contact info:-
+Gmail:-(kunalnarkhede777@gmail.com)
+Gihub:-(https://github.com/Kunal-77)

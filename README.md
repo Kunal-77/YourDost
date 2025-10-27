@@ -1,15 +1,15 @@
 # YourDOST Frontend & DSA Assignment
 
-## 🚀 Overview
+##  Overview
 This repository contains solutions for the **Frontend Development** and **DSA (Data Structures & Algorithms)** questions given in the YourDOST SDE assignment.
 
 ---
 
-## 💻 Frontend Question
+##  Frontend Question
 
 ### **Question**
 Build a simple React web page that fetches and displays user data from an API:  
-👉 `https://reqres.in/api/users`
+ `https://reqres.in/api/users`
 
 **Requirements:**
 - Fetch and display user list in a table or card layout  
@@ -22,18 +22,18 @@ Build a simple React web page that fetches and displays user data from an API:
 ---
 
 ### **Short Answer / Implementation Summary**
-✅ Created a **React + Vite + Tailwind CSS** web app that:
+ Created a **React + Vite + Tailwind CSS** web app that:
 - Fetches users dynamically from the API  
 - Implements **search, filter, sort, and pagination**  
 - Includes a **loading spinner & responsive design**  
 - Deployed successfully on **Vercel**
 
 **API Used:**  
-👉 `https://randomuser.me/api` (used instead of reqres.in to avoid CORS/auth issues)
+`https://randomuser.me/api` (used instead of reqres.in to avoid CORS/auth issues)
 
 ---
 
-## 🧠 DSA Question
+##  DSA Question
 
 ### **Question**
 Implement basic DSA-based coding problems (example types):  
@@ -46,14 +46,14 @@ Implement basic DSA-based coding problems (example types):
 ---
 
 ### **Short Answer**
-✅ Implemented efficient **DSA solutions** using optimal time and space complexity:
+ Implemented efficient **DSA solutions** using optimal time and space complexity:
 - Used **iterative and recursive approaches** where applicable  
 - Focused on **clarity, modularity, and performance**  
 - Time complexity explained in comments for each function  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **React (Vite)**  
 - **Tailwind CSS**  
 - **JavaScript (ES6+)**  
@@ -61,7 +61,7 @@ Implement basic DSA-based coding problems (example types):
 
 ---
 
-## 📦 Setup
+##  Setup
 ```bash
 # Install dependencies
 npm install
