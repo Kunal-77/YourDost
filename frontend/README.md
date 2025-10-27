@@ -1,12 +1,12 @@
-# 🧠 YourDOST Frontend Assignment
+#  YourDOST Frontend Assignment
 
-## 🚀 Overview
+##  Overview
 This project is a **React + Vite + Tailwind CSS** web application built as part of the **YourDOST Frontend Assignment**.  
 It displays a list of users fetched from an API with full functionality — **search, filter, sort, and pagination**.
 
 ---
 
-## 🎯 Objective
+##  Objective
 Build a simple user directory that:
 - Fetches user data from an API  
 - Displays users in a clean, responsive UI  
